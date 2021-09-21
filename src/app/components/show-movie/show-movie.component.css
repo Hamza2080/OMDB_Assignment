@@ -1,0 +1,44 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	 -webkit-user-select: none;
+	  -moz-user-select: -moz-none;
+	  -o-user-select: none;
+	  user-select: none;
+  }
+  img {
+	  -webkit-user-drag: none;
+	  -moz-user-drag: none;
+	  -o-user-drag: none;
+	  user-drag: none;
+  }
+  img {
+	pointer-events: none;
+  }
+  .movie_card{
+	transition: transform .5s ease;
+	padding: 0 !important;
+	margin:14px;
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .movie_card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 350px;
+  }
+  .movie_info{
+	color: #5e5c5c;
+  }
+
+  .movie_info i{
+	font-size: 20px;
+  }
+  .card-title{
+	width: 80%;
+	height: 4rem;
+  }
+
+  .movie_card:hover {
+	transition: transform .5s ease;
+	transform: scale(1.1);
+  }
