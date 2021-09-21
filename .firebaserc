@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todoapp-28aea": {
+      "hosting": {
+        "angular-test": [
+          "todoapp-28aea"
+        ]
+      }
+    }
+  }
+}
