@@ -1,5 +1,5 @@
 export const environment = {
-  apiUrl: 'http://www.omdbapi.com',
+  apiUrl: 'https://www.omdbapi.com',
   enableDebug: false,
   apiKey: '5dfd244'
 };
